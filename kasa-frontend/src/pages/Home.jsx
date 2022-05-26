@@ -4,7 +4,8 @@ import CardList from '../components/CardList'
 function Home() {
   return (
     <><Slogan />
-      <CardList /></>
+      <CardList />
+    </>
   )
 }
 

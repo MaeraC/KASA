@@ -1,0 +1,19 @@
+.error {
+    font-size: 280px;
+    color: #FF6060;
+    text-align: center;
+    
+}
+.errorP {
+    font-size: 36px;
+    color: #FF6060;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.error-link {
+    color: #FF6060;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
