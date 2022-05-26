@@ -1,6 +1,7 @@
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 30px 80px;
 }
 .logo {
     width: 200px;
@@ -9,6 +10,10 @@ nav {
 .nav-link {
     color: #FF6060;
     font-size: 24px;
+    text-decoration: none;
+}
+.nav-link:hover {
+    text-decoration: underline;
 }
 .space {
     margin-right : 50px;

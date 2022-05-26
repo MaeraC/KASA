@@ -1,0 +1,19 @@
+footer {
+    background: black;
+    color: white;
+    height: 200px;
+}
+.logo-footer  {
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.copyright {
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+} 
