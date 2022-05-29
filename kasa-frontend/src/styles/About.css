@@ -57,3 +57,39 @@
 .desc-close , .desc-close1 {
     display: none;
 }
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .image {
+        padding: 0 40px;
+        border-radius: 10px;
+    }
+    .image-img {
+        border-radius: 10px;
+    }
+    .about {
+        padding:  0 80px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .image {
+        padding: 0 20px; 
+        height: 200px;
+        margin: 20px 0;
+    }
+    .image-img {
+        border-radius: 10px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .about {
+        padding:  0 20px;
+    }
+    .arrow-ok {
+        width: 15px;
+        height: 15px;
+    }
+    .bloc {
+        margin: 20px 0;
+    }
+}

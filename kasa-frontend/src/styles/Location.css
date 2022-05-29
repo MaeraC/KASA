@@ -113,3 +113,119 @@
 .arrowNext {
     right: 20px;
 }
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .arrowPrevious img, .arrowNext img {
+        width: 40px;
+        height: 60px;
+    }
+    .profile img {
+        width: 55px;
+        height: 55px;
+    }
+    .presentation , .description-blocs , .carroussel {
+        margin: 20px 40px;
+        
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .arrowPrevious img, .arrowNext img {
+        width: 15px;
+        height: 20px;
+    }
+    .presentation , .description-blocs , .carroussel {
+        margin: 20px;
+        position: relative;
+    }
+    .picture img {
+        border-radius: 10px;
+    }
+    .carroussel , .picture img {
+        height: 300px;
+    }
+    .presentation-top h1 {
+        font-size: 20px;
+    }
+    .profile .name {
+        font-size: 13px;
+    }
+    .profile {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .profile img {
+        width: 35px;
+        height: 35px;
+    }
+    .localisation {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .presentation-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tags .tag {
+        font-size: 10px;
+        margin: 10px 0;
+        margin-right: 10px;
+    }
+    .rating img {
+        width: 15px;
+        height: 15px;
+    }
+    .description-blocs h3 {
+        font-size: 14px;
+    }
+    .description-blocs img {
+        width: 15px;
+        height: 10px;
+        align-self: center;
+    }
+    .description-blocs {
+        display: block;
+        margin: 20px;
+    }
+    .description {
+        width: 100%;
+        
+        color: #FF6060;
+    }
+    .titre {
+        background: #FF6060;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .arrow-ok{
+        width: 28px;
+        height: 18px;
+        cursor: pointer;
+    }
+    .arrow-hidden {
+        display: none;
+    }
+    .titre h3 {
+        font-size: 15px;
+        color: white;
+        font-weight: normal;
+    }
+    .desc-open{
+        padding: 20px;
+        line-height: 25px;
+        background: #F6F6F6;
+        height: 200px;
+    }
+    .desc-close {
+        display: none;
+    }
+    .desc {
+        height: 50px;
+    }
+    
+    
+}

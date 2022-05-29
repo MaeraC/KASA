@@ -17,3 +17,15 @@ footer {
     left: 50%;
     transform: translate(-50%, 50%);
 } 
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .copyright {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .copyright {
+        font-size: 15px;
+    }
+}

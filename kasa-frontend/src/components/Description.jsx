@@ -17,7 +17,7 @@ function Description() {
     
     // Si isOpen est sur false alors tu l'ouvre sinon tu le ferme au clic
     return (  
-        <div className="description">
+        <div className={isOpen ? "description" : "desc"} >
             <div className="titre" onClick={() => isOpen ? setIsOpen(false) : setIsOpen(true)} >
                 <h3>Description</h3>
                 <img src={arrowClose} alt="Fermer la description" 

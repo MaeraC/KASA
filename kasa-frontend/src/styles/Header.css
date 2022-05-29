@@ -18,3 +18,37 @@ nav {
 .space {
     margin-right : 50px;
 }
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    nav {
+        margin: 30px 40px;
+    }
+    .logo {
+        width: 150px;
+        height: 50px;
+    }
+    .nav-link {
+        font-size: 20px;
+    }
+    .space {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    nav {
+        margin: 10px;
+        align-items: center;
+    }
+    .logo {
+        width: 110px;
+        height: 35px;
+    }
+    .nav-link {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .space {
+        margin-right: 10px;
+    }
+}
