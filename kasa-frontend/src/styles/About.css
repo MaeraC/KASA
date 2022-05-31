@@ -9,17 +9,6 @@
     border-radius: 25px;
     width: 100%;
 }
-.image span {
-    position: absolute;
-    background: black;
-    top: 0;
-    left: 0;
-    width: 88%;
-    height: 100%;
-    border-radius: 25px;
-    opacity: 0.3;
-    margin: 0 80px; 
-}
 
 .about {
     padding: 0 200px;

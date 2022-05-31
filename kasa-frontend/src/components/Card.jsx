@@ -22,5 +22,3 @@ Card.propTypes = {
 
 export default Card
 
-//PropTypes permet de préciser le type de chacunes de nos props (id, title, cover)
-// afin de les sécuriser pour éviter d'éventuels bugs.

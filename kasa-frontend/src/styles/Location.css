@@ -49,7 +49,7 @@
     justify-content: space-between;
     margin: 40px 80px;
 }
-.description {
+.description , .desc {
     width: 48%;
     height: 250px;
     color: #FF6060;
@@ -113,6 +113,7 @@
 .arrowNext {
     right: 20px;
 }
+
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
     .arrowPrevious img, .arrowNext img {
@@ -225,6 +226,7 @@
     }
     .desc {
         height: 50px;
+        width: 100%;
     }
     
     

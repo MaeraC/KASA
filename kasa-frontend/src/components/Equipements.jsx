@@ -19,7 +19,7 @@ function Equipements() {
 
     // Implémente la liste des équipements dans la page
     return(
-        <div className={isOpen ? "description" : "desc"} >
+        <div className={isOpen ? "desc" : "description"} >
             <div className="titre" onClick={() => isOpen ? setIsOpen(false) : setIsOpen(true) }>
                 <h3>Equipements</h3>
                 <img src={arrowClose} alt="Fermer la description" 
